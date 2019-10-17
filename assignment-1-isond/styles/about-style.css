@@ -1,0 +1,28 @@
+@media (max-width: 767px)
+{
+    #profile{
+        height: 40%;
+        padding: 20px;
+        border: 1px solid #000000;
+        margin: 0;
+    }
+
+    #about
+    {
+        margin-top: -390px;
+    }
+
+    #name, #subt{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px)
+{
+    #profile{
+        height: 40%;
+        padding: 30px;
+        border: 1px solid #000000;
+    }
+} 
+

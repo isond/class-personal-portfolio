@@ -1,0 +1,21 @@
+#form_container
+{
+    border: 1px solid #dee3f0;
+    background-color: #dee3f0;
+}
+
+#form_container input
+{
+    border: 1px solid #98aad7;
+}
+
+.form_control:focus
+{
+    border-color: #222e49;
+    box-shadow: 0 0 0 0.2rem rgba(34, 46, 73, 0.25);
+}
+
+#inputMessage
+{
+    height: 250px;
+}

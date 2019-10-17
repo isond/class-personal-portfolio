@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Dianne Ison
+EMAIL: isond@uci.edu
+-->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Dianne Ison">
+	<meta name="description" content="My portfolio displaying my work throughout my college career"> <!-- fix up this descrpition -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="images/glasses-favicon.png" />
+		
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/style.css" type="text/css">
+	
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+	<!-- icons -->
+	<script src="https://kit.fontawesome.com/c4f8fb0e09.js" crossorigin="anonymous"></script>
+
+
+	<!-- for side nav bar -->
+	<script src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<script src="scripts/script.js"></script>
+	<script src="scripts/index-script.js"></script>
+
+	<title>Dianne's Portfolio - Home</title>
+</head>
+<body>
+
+	
+	
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+		<div class="text-center">
+			<a class="navbar-brand" href="index.html">
+				<img src="images/di-glasses.png" class="img-fluid rounded-circle ml-4" id="glasses" alt="blue glasses">
+			</a>
+			<p class=" h2 text-white">DIANNE ISON</p>
+		</div>
+			
+		
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+				aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	
+		<div class="collapse navbar-collapse text-center" id="navbarsExampleDefault">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">PORTFOLIO</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">ABOUT</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">CONTACT</a>
+				</li>
+			</ul>			
+		</div>
+
+		<div id="cr" class="text-center d-none d-lg-block">
+			<footer class="text-center .d-none .d-lg-block .d-xl-block">
+				<a href="https://linkedin.com/in/dianneison" target="_blank"><span class="fab fa-linkedin fa-2x"></span></a>
+				<a href="https://github.com/isond" target="_blank"><span class="fab fa-github-square fa-2x"></span></a>
+				<a href="mailto:isond@uci.edu" target="_blank"><span class="fas fa-envelope fa-2x"></span></a>
+				<div class="container">&copy; isond 2019</div>
+			</footer>	
+		</div>
+	</nav>
+
+	<p class="h1 text-center">MY PORTFOLIO</p>
+	<hr>
+
+	<!-- projects section -->
+	<div id="portfolio">
+	<div>
+	<p class="h2">PROJECTS</p>
+	<p class="lead">Here are some programming projects from hackathons and classes.</p>
+	<div class="card-deck">
+		<div class="card">
+			<img src="images/projects/proj01.png" class="card-img-top" alt="Translation Nation - chat with live translations">
+			<div class="card-body">
+				<h5 class="card-title">Tranlation Nation - AthenaHacks 2019</h5>
+				<p class="card-text">A web app for chatting that strives to overcome language barriers!</p>
+				<a href="https://translationnation.net/" target="_blank" class="btn btn-dark">View Project</a>
+			</div>
+		</div>
+		<div class="card">
+			<img src="images/projects/proj02.png" class="card-img-top" alt="iLive-iLeaf - quiz yourself on sustainability">
+			<div class="card-body">
+				<h5 class="card-title">iLeaf-iLearn - HackUCI 2019</h5>
+				<p class="card-text">Learn the eco life, to leaf a better life.</p>
+				<a href="http://www.ileaf-ilearn.tech/" target="_blank" class="btn btn-dark">View Project</a>
+			</div>
+		</div>
+	
+		<div class="card">
+			<img src="images/projects/proj03.gif" class="card-img-top" alt="animated car scene">
+			<div class="card-body">
+				<h5 class="card-title">Animated Car Scene</h5>
+				<p class="card-text">Simulating a car driving in the day and night time.</p>
+				<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#viewPROJ03">View Project</button>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<!-- Modal -->
+	<div class="modal fade" id="viewPROJ03" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="images/projects/proj03-full.gif" class="card-img-top" alt="Kim Minseok as a barista">
+				</div>
+			</div>
+		</div>
+	</div> <!-- end of modal -->
+
+	
+
+	<!-- photoshop works section-->
+	<div>
+	<p class="h2 mt-5 pt-3">PHOTOSHOP</p>
+	<p class="lead">During my free time, I like to play around Photoshop to create some edits of K-pop idols.</p>
+	<div class="card-deck">
+		<div class="card">
+			<img src="images/photoshop/ps01-thumbnail.gif" class="card-img-top" alt="Kim Minseok as a barista">
+			<div class="card-body">
+				<h5 class="card-title">Kim Minseok - Barista</h5>
+				<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#viewPS01">Full Image</button>
+			</div>
+		</div>
+		<div class="card">
+			<img src="images/photoshop/ps02-thumbnail.png" class="card-img-top" alt="Byun Baekhyun">
+			<div class="card-body">
+				<h5 class="card-title">Byun Baekhyun - Blue</h5>
+				<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#viewPS02">Full Image</button>
+			</div>
+		</div>
+		<div class="card">
+			<img src="images/photoshop/ps03-thumbnail.gif" class="card-img-top" alt="black and white SHINee gif">
+			<div class="card-body">
+				<h5 class="card-title">SHINee B&W</h5>
+				<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#viewPS03">Full Image</button>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="viewPS01" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="images/photoshop/ps01.gif" class="card-img-top" alt="Kim Minseok as a barista">
+				</div>
+			</div>
+		</div>
+	</div> <!-- end of modal -->
+
+	<!-- Modal -->
+	<div class="modal fade" id="viewPS02" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="images/photoshop/ps02.png" class="card-img-top" alt="Kim Minseok as a barista">
+				</div>
+			</div>
+		</div>
+	</div> <!-- end of modal -->
+
+	<!-- Modal -->
+	<div class="modal fade" id="viewPS03" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="images/photoshop/ps03.gif" class="card-img-top" alt="Kim Minseok as a barista">
+				</div>
+			</div>
+		</div>
+	</div> <!-- end of modal -->
+
+	</div>
+	
+	
+	<div id="cr-mobile" class="text-center d-block d-lg-none">
+		<footer class="text-center">
+			<a href="https://linkedin.com/in/dianneison" target="_blank"><span class="fab fa-linkedin fa-2x"></span></a>
+			<a href="https://github.com/isond" target="_blank"><span class="fab fa-github-square fa-2x"></span></a>
+			<a href="mailto:isond@uci.edu" target="_blank"><span class="fas fa-envelope fa-2x"></span></a>
+			<div class="container">&copy; isond 2019</div>
+		</footer>	
+	</div>
+	
+
+</body>
+
+</html>

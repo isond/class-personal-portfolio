@@ -1,0 +1,10 @@
+.card-deck .card-text
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-deck .card-title
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
